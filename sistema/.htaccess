@@ -1,0 +1,9 @@
+# Reescrita de URL
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} -d [NC]
+RewriteRule .* - [L]
+
+RewriteRule ^([a-zA-Z0-9-_]*)/?([a-zA-Z0-9-_]*)?/?([a-zA-Z0-9-_]*)?/?([a-zA-Z0-9-_]*)?/?$ $1.php?1=$2&2=$3&3=$4&4=$5 [NC,L]

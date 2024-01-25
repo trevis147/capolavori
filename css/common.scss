@@ -1,0 +1,276 @@
+@mixin border-radius($value: 50%) {
+    -webkit-border-radius: $value;
+    -ms-border-radius: $value;
+    -moz-border-radius: $value;
+    -o-border-radius: $value;
+    border-radius: $value;
+}
+@mixin filter($value) {
+  -webkit-filter: $value;
+  -moz-filter: $value;
+  -ms-filter: $value;
+  -o-filter: $value;
+  filter: $value;
+}
+@mixin transform-origin($value) {
+  -webkit-transform-origin: $value;
+  -moz-transform-origin: $value;
+  -ms-transform-origin: $value;
+  -o-transform-origin: $value;
+  transform-origin: $value;
+}
+@mixin transform($value) {
+  -webkit-transform: $value;
+  -moz-transform: $value;
+  -ms-transform: $value;
+  -o-transform: $value;
+  transform: $value;
+}
+@mixin translateX($value: -50%) {
+    -webkit-transform: translateX($value);
+    -moz-transform: translateX($value);
+    -ms-transform: translateX($value);
+    -o-transform: translateX($value);
+    transform: translateX($value);
+}
+@mixin translateY($value: -50%) {
+    -webkit-transform: translateY($value);
+    -moz-transform: translateY($value);
+    -ms-transform: translateY($value);
+    -o-transform: translateY($value);
+    transform: translateY($value);
+}
+@mixin translate($value1: -50%, $value2: -50%) {
+    -webkit-transform: translate($value1, $value2);
+    -moz-transform: translate($value1, $value2);
+    -ms-transform: translate($value1, $value2);
+    -o-transform: translate($value1, $value2);
+    transform: translate($value1, $value2);
+}
+@mixin box-shadow($property: 0 5px 10px rgba(0,0,0,0.3)) {
+    -webkit-box-shadow: $property;
+    -moz-box-shadow: $property;
+    -ms-box-shadow: $property;
+    -o-box-shadow: $property;
+    box-shadow: $property;
+}
+@mixin text-shadow($property: 0 0 7px rgba(0,0,0,0.3)) {
+    -webkit-text-shadow: $property;
+    -moz-text-shadow: $property;
+    -ms-text-shadow: $property;
+    -o-text-shadow: $property;
+    text-shadow: $property;
+}
+@mixin transition($property: 0.3s ease-in-out) {
+  -webkit-transition: $property;
+  -moz-transition: $property;
+  -ms-transition: $property;
+  -o-transition: $property;
+  transition: $property;
+}
+@mixin rotate($deg: 180deg) {
+  -webkit-transform: rotate($deg);
+  -moz-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  -o-transform: rotate($deg);
+  transform: rotate($deg);
+}
+@mixin mirror-h() {
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+}
+@mixin scale($x : 1.1, $y : 1.1) {
+  -webkit-transform: scale($x, $y);
+  -moz-transform: scale($x, $y);
+  -ms-transform: scale($x, $y);
+  -o-transform: scale($x, $y);
+  transform: scale($x, $y);
+}
+
+// animations
+@keyframes blink {
+  from {
+    opacity: 0;
+    @include box-shadow(0 0 5px rgba(255, 255,255, 0));
+  }
+  to {
+    opacity: 1;
+    @include box-shadow(0 0 5px rgba(235, 65, 65, 1));
+  }
+}
+@keyframes motor {
+  from {
+    top: 0;
+    @include rotate(0deg);
+  }
+  to {
+    top: -2px;
+    @include rotate(1deg);
+  }
+}
+.anim-motor {
+  animation: motor 0.15s infinite;
+}
+@keyframes zoop {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes slide {
+  from { background-position: 0 center; }
+  to { background-position: -400px center; }
+}
+.anim-slide {
+  animation: slide 4s linear infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba($primary,40%);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba($primary, 0%);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba($primary, 0%);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba($primary,40%);
+    box-shadow: 0 0 0 0 rgba($primary,40%);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba($primary, 0%);
+      box-shadow: 0 0 0 10px rgba($primary, 0%);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba($primary, 0%);
+      box-shadow: 0 0 0 0 rgba($primary, 0%);
+  }
+}
+
+
+// Common styling
+a, button {
+  &:hover, &:active, &:focus {
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+  }
+}
+.wow {
+  visibility: hidden;
+}
+.background-light {
+  background-color: $light;
+}
+.background-secondary {
+  background-color: $secondary;
+}
+.right-wing {
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  @media (min-width: 992px) {
+    &:before {
+      content: "";
+      display: block;
+      width: 80px;
+      background-color: $secondary;
+      position: absolute;
+      right: -40px;
+      top: 0px;
+      bottom: 1px;
+      z-index: -1;
+      @include transform(skewX(-14deg));
+    }
+  }
+}
+.page-section {
+  // padding: 30px 0;
+}
+.text-justify-center {
+  text-align: justify;
+  text-align-last: center;
+}
+.nice-input-label {
+  position: absolute;
+  left: 7px;
+  bottom: 7px;
+  color: lighten($dark, 7%);
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  @include transition(0.3s);
+}
+.nice-input-wrapper {
+  position: relative;
+  button {
+    border: none;
+    background-color: transparent;
+    color: $dark;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    @include translateY();
+    img {
+      height: 15px;
+      width: 15px;
+    }
+  }
+  .nice-input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid $dark;
+    height: 45px;
+    width: 100%;
+    &:focus, &.filled {
+      outline: none;
+      border-color: $primary;
+      button {
+        color: $primary;
+      }
+      & ~ .nice-input-label {
+        left: 0;
+        bottom: 100%;
+        color: $primary;
+        margin-bottom: none;
+        @include scale(1.04, 1.04);
+      }
+    }
+  }
+}
+
+
+
+
+.breadcrumb {
+  background-color: lighten($light, 7%);
+  border: 3px solid lighten($light, 5%);
+  margin-top: 75px;
+  .breadcrumb-item {
+    font-size: 14px;
+  }
+}
+
+// Responsive Breakpoints Config
+@media (min-width: 992px) {
+  .padding-x-md-105 {
+    padding-left: 105px;
+    padding-right: 105px;
+  }
+}
+
+@media (max-width: 992px) {
+  .max-width-md-65vw {
+    display: block;
+    margin: 0 auto;
+    max-width: 65vw;
+  }
+}

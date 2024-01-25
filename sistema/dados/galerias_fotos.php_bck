@@ -1,0 +1,48 @@
+<?php
+
+session_start();
+//require_once('../config/classes.php');
+//require_once('../config/instancias.php');
+require_once('../config/config.php');
+
+
+$imagem = '../../imagem/';
+if(!file_exists($imagem)) {// testo se a pasta existe
+    mkdir($imagem,0777);
+} 
+
+
+$caminho = '../../imagem/galerias_fotos/';
+$caminho2 = '../../imagem/galerias_fotos/thumbnail/';
+$caminho3 = '../../imagem/galerias_fotos/media/';
+
+			
+
+			if(!file_exists($caminho)) {// testo se a pasta existe
+            	mkdir($caminho,0777);
+       		} 
+			
+			if(!file_exists($caminho2)) {// testo se a pasta existe
+            	mkdir($caminho2,0777);
+       		} 
+
+			if(!file_exists($caminho3)) {// testo se a pasta existe
+            	mkdir($caminho3,0777);
+       		} 
+
+
+if (isset($_FILES["file"]["name"]) && $_FILES["file"]["name"] != '') {
+
+	$sql = 'Insert into galerias_fotos(Foto,Galerias,Tipo_pag) values("'.$_FILES["file"]["name"].'",'.$_SESSION["Pagina"].','.$_SESSION['TipoPagina'].')';
+    Query($sql,0);
+   
+    $sql = Query("SELECT Galerias_fotos FROM `galerias_fotos` WHERE  `Galerias` = '".$_SESSION['Pagina']."' and `Tipo_pag` = '".$_SESSION['TipoPagina']."' order by Galerias_fotos DESC limit 1",0);
+    
+    $result = mysql_fetch_assoc($sql);
+    $id = $result['Galerias_fotos'];
+
+    upload_altura($_FILES["file"], $caminho3 . $_FILES["file"]["name"], 260);
+   	upload_larg_alt($_FILES["file"], $caminho2 . $_FILES["file"]["name"], 120, 120);
+    upload_arquivo($_FILES["file"]["name"], $_FILES["file"]['tmp_name'], $caminho);
+    echo $id;
+}

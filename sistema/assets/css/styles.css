@@ -1,0 +1,2 @@
+.sumiu{display: none !important;}
+.imageBox{position:relative;height:400px;width:400px;border:1px solid #aaa;background:no-repeat #fff;overflow:hidden;cursor:move}.imageBox .thumbBox{position:absolute;top:50%;left:44%;width:232px;height:192px;margin-top:-100px;margin-left:-100px;box-sizing:border-box;border:1px solid #666;box-shadow:0 0 0 1000px rgba(0,0,0,.5);background:none}.imageBox .spinner{position:absolute;top:0;left:0;bottom:0;right:0;text-align:center;line-height:400px;background:rgba(0,0,0,.7)}.margin-25{margin:25px 0}.at{cursor:pointer}

@@ -1,0 +1,52 @@
+$primary: #f6f6f6;
+$secondary: #b52a2f;
+$mask: #353738;
+$success: #006400;
+$info: #a5e5f3;
+$warning: #e8ab40;
+$danger: #ffadbb;
+$error: #e92d4d;
+$light: #DCDCDC;
+$silver: #f2f3f5;
+$lead: #616161;
+$gray: #a79f9f;
+$dark: #1C1C1C;
+$lemon: #f2fad5;
+$purple: #9205ea;
+$pink: #f43b99;
+$white: #ffffff;
+$info2: #DAA520;
+
+$theme-colors : (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "silver":     $silver
+);
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans.woff2') format('woff2'),
+        url('OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Bold.woff2') format('woff2'),
+        url('OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+$font-family-sans-serif : 'Open Sans', Arial, sans-serif;
+$font-family-title: 'Open Sans', Arial, sans-serif;
+$font-family-base:  $font-family-sans-serif;
