@@ -35,24 +35,24 @@
 <div class="copyright text-center container">
   <div class="row">
     <div class="col-md-12">&copy; <span class="text-dark">2021</span> CAPOLAVORI, todos os direitos reservados.
-      </div>
+    </div>
   </div>
 </div>
 
 <div class="social-flutuante">
   <div class="flexbox">
     <div class="social-wrapper inst">
-      <a href="https://www.instagram.com/empresa/" target="_blank">
+      <a href="https://www.instagram.com/capo.capolavori/" target="_blank">
         <i class="fa fa-instagram"></i>
       </a>
     </div>
     <div class="social-wrapper wpp">
-      <a href="https://api.whatsapp.com/send?phone=555123456789" target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=5515991096798" target="_blank">
         <i class="fa fa-whatsapp"></i>
       </a>
     </div>
     <div class="social-wrapper lk">
-      <a href="https://www.linkedin.com/company/empresa/" target="_blank">
+      <a href="https://www.linkedin.com/search/results/all/?keywords=capolavori&origin=GLOBAL_SEARCH_HEADER" target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </div>
@@ -63,7 +63,8 @@
   <div class="cookies">
     <h4>Este site usa cookies.</h4>
     <p>
-      Texto sobre o uso de cookies no site.
+      Usamos cookies para analisar o tráfego do site e otimizar sua experiência nele. Ao aceitar nosso uso de cookies,
+      seus dados serão agregados com os dados de todos os demais usuários.
     </p>
     <button type="button" class="btn btn-primary text-dark dismiss-cookies">Aceitar</button>
   </div>
