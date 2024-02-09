@@ -57,8 +57,8 @@
   <!-- Mock data for empresa -->
   <?php
   $d = [
-    'Nome' => 'Nome da Empresa',
-    'Descricao' => 'Descrição da Empresa'
+    'Nome' => '',
+    'Descricao' => ''
     // Add other fields as needed
   ];
   ?>

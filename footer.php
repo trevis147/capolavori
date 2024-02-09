@@ -6,17 +6,17 @@
         <address>
           <a href="https://www.google.com/maps/search/Rua+Jorge+Macruz,+265+-+Bairro:+Portal+Ville+Azaleia+-+BOITUVA+%2F+SP/@-23.2967638,-47.6502305,17z/data=!3m1!4b1"
             target="_blank">
-            <span>Endereço da Empresa</span><br>
+            <span>Rua Jorge Macruz, 265 - Bairro: Portal Ville Azaleia - BOITUVA / SP CEP: 18552-336</span><br>
           </a>
         </address>
       </div>
       <div class="col-md-3 col-institucional-contato">
         <h3>Email:</h3>
-        <span><a href="mailto:email@empresa.com" class="text-white">email@empresa.com</a></span>
+        <span><a href="mailto:contato@capolavori.com.br" class="text-white">contato@capolavori.com.br</a></span>
       </div>
       <div class="col-md-3 col-institucional-contato">
         <h3>Telefone:</h3>
-        <span><a href="tel:055123456789" class="text-white">123-456-789</a></span>
+        <span><a href="tel:05515991096798" class="text-white">+55 (15) 991096798</a></span>
       </div>
       <div class="col-md-3 col-institucional-contato">
         <h3>Newsletter</h3>
@@ -35,8 +35,7 @@
 <div class="copyright text-center container">
   <div class="row">
     <div class="col-md-12">&copy; <span class="text-dark">2021</span> CAPOLAVORI, todos os direitos reservados.
-      <br class="mobile-only"> Desenvolvido por <a href="#" target="_blank"><img src="images/makeweb.png" class="inline-icon"
-          alt=""></a></div>
+      </div>
   </div>
 </div>
 
