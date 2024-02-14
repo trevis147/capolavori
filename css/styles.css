@@ -489,6 +489,33 @@ mark,
   height: auto;
 }
 
+
+.img_fornecedorPG1 {
+  height: 513px; 
+  margin-left: -10px;
+}
+
+.img_fornecedorPG2 {
+  height: 513px;
+  margin-top: 78px;
+  position: absolute;
+  left: 0px;
+}
+
+.img_ClientePG1 {
+  height: 513px; 
+  margin-left: -16px;
+  width: 555px;
+}
+
+.img_ClientePG2 {
+  height: 513px;
+  margin-top: 78px;
+  position: absolute;
+  left: 0px;
+  width: 555px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #ffffff;

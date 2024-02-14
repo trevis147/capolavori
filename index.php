@@ -28,9 +28,21 @@
         </div>
         <div class="mt-4 text-center">
           <h5 class="text-center text-dark">Baixe nossas apresentações.</h5>
-          <a href="./imagens/download_home/21e13a9655ff82a1cb0c9e94c69ffac1.pdf" class="btn btn-dark text-white mb-3"
+          <a href="./apresentacao/CAPOLAVORI_2024.pdf" class="btn btn-dark text-white mb-3"
             download><i class="fa fa-download"></i>
-            Titulo
+            CAPOLAVORI 2024
+          </a><br />
+          <a href="./apresentacao/CAPOLAVORI_ITENS_DIFICEIS_DE_SE_ENCONTRAR.pdf" class="btn btn-dark text-white mb-3"
+            download><i class="fa fa-download"></i>
+            CAPOLAVORI ITENS DIFICEIS DE SE ENCONTRAR
+          </a><br />
+          <a href="./apresentacao/Materiais_Diferentes_que_já_fornecemos_a_clientes_diversos.pdf" class="btn btn-dark text-white mb-3"
+            download><i class="fa fa-download"></i>
+            Materiais Diferentes que já fornecemos a clientes diversos
+          </a><br />
+          <a href="./apresentacao/materiais_que_a_Capolavori_pode_fornecer.pdf" class="btn btn-dark text-white mb-3"
+            download><i class="fa fa-download"></i>
+            materiais que a Capolavori pode fornecer
           </a><br />
         </div>
       </div>
@@ -221,276 +233,25 @@
       <div class="page">
         <div class="content-page">
           <h2 class="subtitle">Fornecedores</h2>
-          <div class="flexbox mt-5">
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/f26ca30a7ee7d760c4b3268f2bbfe2ef.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/8810ede59b2c20dff6900d9110bb1224.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/67b0c9a06babba88dfeeaa1b88922ac8.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/4d2f9774502f58659f3db954293ec795.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/0e2dc285455eaba67633cc10dae79e3f.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/dbd9657bff22b3ce4aa645e379ff7591.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/90f7c4a653f919d590392b1f4580cfc4.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/100059aa05dfd3bb7fd5bfaf18469bf7.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/0aa510b125572fe1da3b0c700a3cf21f.jpg" class="img-fluid">
-              </a>
-            </div>
-          </div>
+          <img class="img_fornecedorPG1" src="./imagens/fornecedor_pagina/fornecedor_pt1.jpg">
         </div>
       </div>
       <div class="page">
-        <div class="content-page scroller">
-          <div class="flexbox mt-5" style="margin-top: 125px !important;">
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/742572ab18547bea3f18eef3ff807082.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/f7597ff8e89521ee1206334668049808.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/9c011f3c13efa542cf8941b49b32b075.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/92f75225bd5c5ce95c391f39e03138a5.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/b6cd82b23c038563e519589d38f41d66.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/713b3a12eaf3b5dfffdcb285d56f7e8f.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/6a1f84cead5574ed03b32787f994d603.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/fornecedor/300/4e28bb7aef9e4163b08ba855bde2fced.jpg" class="img-fluid">
-              </a>
-            </div>
-          </div>
+        <div class="content-page">
+          <img class="img_fornecedorPG2" src="./imagens/fornecedor_pagina/fornecedor_pt2.png">
         </div>
       </div>
-
       <div class="page">
         <div class="content-page">
           <h2 class="subtitle">Clientes</h2>
-          <div class="flexbox mt-5">
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/3924a65cfa20b24a6e4ed0d9d2c36766.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/aa02cf97cfbddedb489abb71b1976d39.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/0692531c96836a2a637ba93f7e0eaf6e.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/c923292b9ec4098ab5494edc73c75e77.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/514d50eab7fa4a5bed56a71c61ad75a6.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/3a78ff05b1d6378958afa5111812dd35.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/281fd6d229cef3df2b57d930edc28f8d.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/ade177fd728d59b6ce57b2d5707f221e.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/da3ef3d090a9ab66f60686001517f1d8.jpg" class="img-fluid">
-              </a>
-            </div>
-          </div>
+          <img class="img_ClientePG1" src="./imagens/clientes_page/page1_clientes.jpeg">
         </div>
       </div>
       <div class="page">
-        <div class="content-page scroller">
-          <div class="flexbox mt-5" style="margin-top: 125px !important;">
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/1d8eed11c6d69ee05cb0c379fefbd97c.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/622387bfae9392c2592c3fa213dac42f.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/70f639c7d323fd0a7a7489395c416cb4.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/86f492893876d46d73f09e6c239fa2ee.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/98d4064e605c77f2c71111a696f8023a.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/07c9513961f211f86f463f272cac13f9.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/1300d84b7404aec2ba542428ccded754.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/5e9bbe08f45c84fe8da4cf73d09bfaeb.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/9c8824f04cd02851b93b4d60966e6eb4.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/989da1d6f044e8aa1d487eb21407e80d.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/f79f4dfd03ba86c04bc0abad07b21e7f.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/3f4d1a2a8cc192d356a887ee14501f40.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/05da188f6bf9c2100ec30e402e916615.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/b07df1baa3318d051785986db596c274.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/25cd617520f327d33b2365419eeb1325.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/fbd65a141937015642fc1257a1292ce9.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/8f56c3bd1cb64946b5d2c1b57ec1df7d.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/f59c2a5dbbb15e446f5d7b87f62c745a.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/049b1c38603d0b00c68a8fa2e08b78e6.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/0a7366bce58afa7724cee8d71df1c83b.jpg" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/8efb93903a3d979247a72947401ae688.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/863c29183e95f118a058e59f6dbb002e.png" class="img-fluid">
-              </a>
-            </div>
-            <div class="img-container">
-              <a href="0">
-                <img src="./imagens/cliente/300/c81bac073ff80a708893a98fe1ead59e.png" class="img-fluid">
-              </a>
-            </div>
-          </div>
+        <div class="content-page">
+          <img class="img_ClientePG2" src="./imagens/clientes_page/page2_clientes.jpeg">
         </div>
       </div>
-
       <div class="page">
         <div class="content-page">
           <h2 class="subtitle">
@@ -567,9 +328,6 @@
     </div>
     <div class="item">
       <img src="./imagens/imagem_home/400/76c3e779672b8047c66e86987af5120e.png" class="img-fluid">
-    </div>
-    <div class="item">
-      <img src="./imagens/imagem_home/400/13584283f4333d7d5e2c6fd0b5abc293.jpg" class="img-fluid">
     </div>
     <div class="item">
       <img src="./imagens/imagem_home/400/29004594727344bd8597576df4b8b269.jpg" class="img-fluid">
