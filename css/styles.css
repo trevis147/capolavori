@@ -623,7 +623,6 @@ pre code {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -9320,6 +9319,7 @@ footer {
   background-color: #000;
   padding-top: 25px;
   padding-bottom: 15px;
+  min-width: 1200px;
   /* margin botão recaptcha */
 }
 footer .socials {
@@ -9566,7 +9566,7 @@ footer .info-centralize {
   display: block;
   position: absolute;
   left: 50%;
-  bottom: 25px;
+  top: 25px;
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   max-width: 968px;
@@ -9603,9 +9603,8 @@ footer .info-centralize {
 }
 @media (max-width: 767px) {
   .cookies-background .cookies {
-    max-width: 100%;
-    left: 0;
-    bottom: 0;
+    max-width: 90%;
+    top: 25px;
     -webkit-border-radius: 0;
     -ms-border-radius: 0;
     -moz-border-radius: 0;
@@ -9627,7 +9626,6 @@ footer .info-centralize {
   height: 100%;
   width: 100%;
   bottom: 0;
-  left: 0;
 }
 
 #main-page {
@@ -9862,7 +9860,8 @@ footer .info-centralize {
 .social-flutuante {
   position: fixed;
   display: block;
-  right: 10px;
+  right: 0;
+  z-index: 999;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);

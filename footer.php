@@ -4,19 +4,25 @@
       <div class="col-md-3">
         <h3>Endereço:</h3>
         <address>
-          <a href="https://www.google.com/maps/search/Rua+Jorge+Macruz,+265+-+Bairro:+Portal+Ville+Azaleia+-+BOITUVA+%2F+SP/@-23.2967638,-47.6502305,17z/data=!3m1!4b1"
-            target="_blank">
-            <span>Rua Jorge Macruz, 265 - Bairro: Portal Ville Azaleia - BOITUVA / SP CEP: 18552-336</span><br>
+          <a href="https://maps.app.goo.gl/uoJ3jW3EPJ14ndDm8" target="_blank">
+            Rua Jorge Macruz, 265 - Bairro: Portal Ville Azaleia - BOITUVA / SP CEP: 18552-336
+          </a><br />
+          <a href="https://maps.app.goo.gl/uoJ3jW3EPJ14ndDm8" target="_blank" style="text-decoration: underline;">
+            google maps procurar por: Capolavori - AH, Boituva - SP
           </a>
         </address>
       </div>
       <div class="col-md-3 col-institucional-contato">
         <h3>Email:</h3>
-        <span><a href="mailto:contato@capolavori.com.br" class="text-white">contato@capolavori.com.br</a></span>
+        <span><a href="mailto:contato@capolavori.com.br" class="text-white">contato@capolavori.com.br</a></span><br />
+        <span><a href="mailto:capo@capolavori.com.br" class="text-white">capo@capolavori.com.br</a></span><br />
+        <span><a href="mailto:vendas@capolavori.com.br" class="text-white">vendas@capolavori.com.br</a></span>
       </div>
       <div class="col-md-3 col-institucional-contato">
         <h3>Telefone:</h3>
-        <span><a href="tel:05515991096798" class="text-white">+55 (15) 991096798</a></span>
+        <span><a href="tel:05515991096798" class="text-white">+55 (15) 9 9109-6798</a></span><br />
+        <span><a href="tel:05515991536002" class="text-white">+55 (15) 9 9153-6002</a></span><br />
+        <span><a href="tel:05515981324404" class="text-white">+55 (15) 9 8132-4404</a></span>
       </div>
       <div class="col-md-3 col-institucional-contato">
         <h3>Newsletter</h3>
@@ -52,7 +58,8 @@
       </a>
     </div>
     <div class="social-wrapper lk">
-      <a href="https://www.linkedin.com/search/results/all/?keywords=capolavori&origin=GLOBAL_SEARCH_HEADER" target="_blank">
+      <a href="https://www.linkedin.com/search/results/all/?keywords=capolavori&origin=GLOBAL_SEARCH_HEADER"
+        target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </div>
